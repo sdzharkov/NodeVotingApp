@@ -1,0 +1,29 @@
+{
+  "name": "delegates",
+  "version": "1.0.0",
+  "description": "A node app to predict the California Primary Election",
+  "main": "index.js",
+  "dependencies": {
+    "node-static": "^0.7.9",
+    "request": "^2.75.0",
+    "sqlite3": "^3.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "run",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdzharkov/NodeVotingApp.git"
+  },
+  "author": "Stephan Zharkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdzharkov/NodeVotingApp/issues"
+  },
+    "engines": {
+    "node": "6.1.0"
+  },
+  "homepage": "https://github.com/sdzharkov/NodeVotingApp#readme"
+}
